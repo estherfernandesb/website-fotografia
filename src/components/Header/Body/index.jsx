@@ -10,7 +10,7 @@ const Body = () => {
        <Corpo>
     <section className="container_sobre">
         <img className="image" src={img1} alt="Foto por Lucas Bastos"/>
-        <div className="imagem_sobre">
+        <div className="overlay_text">
         <h4>Lucas Esteves Bastos, fotográfo e publicitário.</h4>
         <p>Meu objetivo é compartilhar o meu olhar com o mundo sobre as mais diversas paisagens.</p>
         <a href="#">Sobre</a>
@@ -19,21 +19,21 @@ const Body = () => {
     
     <section className="container_galeria">
         <img src={img2} alt="Foto por Lucas Bastos"/>
-        <div className="imagem_galeria">
+        <div className="overlay_text">
         <a href="#">Galeria</a>
         </div>
     </section>
     
     <section className="container_projetos">
         <img src={img3} alt="Foto por Lucas Bastos"/>
-        <div className="imagem_projetos">
+        <div className="overlay_text">
         <a href="#">Projetos</a>
         </div>
     </section>
     
     <section className="container_contato">
         <img src={img4} alt="Foto por Lucas Bastos"/>
-        <div className="imagem_contato">
+        <div className="overlay_text">
         <a href="#">Contato</a>
         </div>
     </section>
